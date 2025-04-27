@@ -1,0 +1,501 @@
+age,gender,smoking,alcohol,exercise,sleep,diet,weight,stress,family_history,symptoms,bloodPressure,sugarLevel,cholesterol,mentalHealth,activityLevel,risk_level
+60,Male,Yes,No,Sometimes,>7,Poor,119,High,Heart,"['Frequent Urination', 'Shortness of Breath', 'Chest Pain']",160,128,221,No,High,High
+19,Female,Yes,No,Sometimes,>7,Poor,99,High,Heart,"['Shortness of Breath', 'Shortness of Breath', 'Blurred Vision']",131,115,121,No,Low,Moderate
+68,Male,No,No,Sometimes,<5,Average,93,High,Diabetes,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",90,165,204,Yes,Low,High
+23,Female,Yes,No,Sometimes,<5,Poor,48,Low,Diabetes,"['Chest Pain', 'Blurred Vision', 'Tired']",128,89,107,No,Moderate,Moderate
+31,Male,Yes,No,Sometimes,>7,Poor,114,Moderate,Heart,"['Chest Pain', 'Chest Pain', 'Blurred Vision']",166,74,264,Yes,High,High
+60,Female,Yes,No,Regular,>7,Average,60,Moderate,Multiple,"['Shortness of Breath', 'Chest Pain', 'Tired']",99,142,138,No,Low,Moderate
+44,Female,Yes,No,Sometimes,>7,Healthy,77,High,None,"['Frequent Urination', 'Tired', 'Shortness of Breath']",179,117,194,No,Moderate,High
+27,Female,No,Yes,Never,5-7,Healthy,68,Moderate,Heart,"['Shortness of Breath', 'Blurred Vision', 'Blurred Vision']",124,148,293,Yes,High,High
+29,Female,No,No,Regular,<5,Average,96,Moderate,None,"['Chest Pain', 'Shortness of Breath', 'Tired']",100,84,222,Yes,Moderate,Low
+30,Female,No,Yes,Regular,>7,Average,90,Low,Multiple,"['Shortness of Breath', 'Chest Pain', 'Blurred Vision']",129,140,298,No,High,High
+55,Female,Yes,Yes,Never,<5,Average,104,Moderate,Multiple,"['Chest Pain', 'Chest Pain', 'Frequent Urination']",154,113,286,No,Low,High
+60,Female,Yes,Yes,Never,>7,Average,99,Moderate,Diabetes,"['Blurred Vision', 'Chest Pain', 'Blurred Vision']",108,87,227,Yes,High,Moderate
+46,Female,No,No,Never,>7,Healthy,116,Low,Diabetes,"['Blurred Vision', 'Shortness of Breath', 'Shortness of Breath']",173,152,198,Yes,Moderate,High
+39,Male,Yes,No,Sometimes,5-7,Healthy,56,Moderate,Heart,"['Chest Pain', 'Shortness of Breath', 'Blurred Vision']",119,101,230,Yes,Moderate,Low
+78,Male,No,Yes,Never,>7,Poor,88,High,Diabetes,"['Frequent Urination', 'Tired', 'Tired']",112,161,206,Yes,Moderate,High
+70,Male,No,No,Sometimes,>7,Healthy,74,Low,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Chest Pain']",162,93,253,Yes,Low,High
+78,Male,No,No,Never,>7,Average,54,High,Diabetes,"['Shortness of Breath', 'Chest Pain', 'Chest Pain']",177,145,108,Yes,Moderate,High
+35,Male,Yes,Yes,Sometimes,>7,Average,92,Low,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Frequent Urination']",141,118,244,No,Low,High
+77,Male,Yes,Yes,Regular,>7,Average,86,Moderate,Diabetes,"['Frequent Urination', 'Blurred Vision', 'Tired']",171,133,102,No,High,High
+32,Female,Yes,Yes,Never,5-7,Healthy,98,Moderate,Multiple,"['Chest Pain', 'Chest Pain', 'Shortness of Breath']",173,74,104,Yes,High,High
+61,Female,Yes,Yes,Regular,5-7,Healthy,93,Low,Multiple,"['Frequent Urination', 'Tired', 'Frequent Urination']",152,103,196,Yes,Low,High
+78,Male,No,Yes,Sometimes,<5,Poor,91,Moderate,Heart,"['Frequent Urination', 'Blurred Vision', 'Frequent Urination']",98,179,154,Yes,Moderate,High
+24,Male,Yes,No,Regular,>7,Healthy,93,Low,Heart,"['Tired', 'Frequent Urination', 'Chest Pain']",142,116,112,Yes,Low,High
+63,Male,Yes,No,Regular,<5,Average,108,Moderate,Heart,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",151,71,137,Yes,Moderate,High
+42,Male,Yes,No,Sometimes,>7,Healthy,83,High,Diabetes,"['Blurred Vision', 'Shortness of Breath', 'Frequent Urination']",119,146,251,Yes,High,High
+48,Male,Yes,No,Regular,5-7,Average,104,Moderate,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Tired']",107,131,251,No,High,High
+38,Female,No,No,Regular,>7,Healthy,85,Moderate,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Tired']",108,94,158,Yes,Moderate,Low
+59,Female,No,No,Never,>7,Healthy,84,Moderate,Multiple,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",161,142,126,Yes,High,High
+64,Male,Yes,Yes,Sometimes,<5,Healthy,61,Low,Heart,"['Tired', 'Tired', 'Shortness of Breath']",131,136,214,No,Moderate,High
+58,Female,Yes,Yes,Regular,5-7,Poor,106,Moderate,Diabetes,"['Tired', 'Tired', 'Chest Pain']",172,173,261,Yes,High,High
+55,Female,Yes,Yes,Sometimes,5-7,Healthy,61,Low,Multiple,"['Chest Pain', 'Tired', 'Chest Pain']",139,96,144,No,Moderate,Moderate
+32,Female,No,Yes,Never,<5,Healthy,57,High,Multiple,"['Shortness of Breath', 'Shortness of Breath', 'Blurred Vision']",148,70,150,Yes,Moderate,High
+25,Male,No,Yes,Regular,<5,Healthy,64,Low,None,"['Blurred Vision', 'Blurred Vision', 'Tired']",112,137,172,No,Moderate,Low
+53,Female,Yes,No,Never,>7,Average,93,Moderate,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Frequent Urination']",93,106,268,Yes,Low,High
+55,Male,Yes,Yes,Regular,5-7,Poor,56,High,None,"['Blurred Vision', 'Tired', 'Shortness of Breath']",117,119,142,No,Moderate,Moderate
+33,Male,No,Yes,Regular,>7,Healthy,52,Low,Diabetes,"['Chest Pain', 'Shortness of Breath', 'Chest Pain']",100,166,119,Yes,Moderate,Low
+27,Male,Yes,Yes,Regular,<5,Average,62,High,Diabetes,"['Tired', 'Blurred Vision', 'Blurred Vision']",95,95,245,No,High,High
+49,Male,No,No,Regular,5-7,Average,57,Moderate,None,"['Chest Pain', 'Shortness of Breath', 'Shortness of Breath']",160,148,247,No,High,High
+19,Female,No,Yes,Regular,>7,Healthy,111,Low,Diabetes,"['Blurred Vision', 'Tired', 'Tired']",169,117,154,Yes,Moderate,High
+39,Female,No,Yes,Sometimes,>7,Healthy,57,Moderate,Heart,"['Frequent Urination', 'Frequent Urination', 'Blurred Vision']",116,156,296,No,Moderate,High
+29,Male,Yes,Yes,Sometimes,>7,Average,87,Moderate,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Chest Pain']",153,166,103,Yes,High,High
+69,Female,Yes,No,Regular,5-7,Poor,118,Moderate,Heart,"['Shortness of Breath', 'Blurred Vision', 'Tired']",170,148,139,No,Moderate,High
+58,Male,Yes,No,Never,<5,Healthy,85,High,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Chest Pain']",132,100,130,Yes,Low,Moderate
+48,Female,No,No,Sometimes,5-7,Poor,86,High,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Blurred Vision']",142,104,127,Yes,Moderate,High
+23,Male,No,No,Regular,5-7,Poor,98,High,None,"['Blurred Vision', 'Chest Pain', 'Chest Pain']",148,125,285,Yes,Moderate,High
+19,Male,No,Yes,Sometimes,>7,Poor,111,High,Diabetes,"['Shortness of Breath', 'Tired', 'Chest Pain']",104,82,177,Yes,Moderate,Moderate
+41,Male,Yes,Yes,Regular,>7,Healthy,53,Moderate,Diabetes,"['Chest Pain', 'Frequent Urination', 'Frequent Urination']",131,126,274,Yes,Moderate,High
+57,Male,No,No,Sometimes,<5,Healthy,45,Moderate,Multiple,"['Chest Pain', 'Chest Pain', 'Blurred Vision']",139,125,249,Yes,High,High
+43,Male,Yes,Yes,Regular,<5,Poor,102,Low,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",140,72,113,No,High,Moderate
+65,Male,No,Yes,Sometimes,5-7,Healthy,57,Moderate,Heart,"['Frequent Urination', 'Shortness of Breath', 'Tired']",108,145,232,No,High,High
+21,Male,Yes,Yes,Sometimes,<5,Poor,79,Moderate,Heart,"['Tired', 'Frequent Urination', 'Tired']",98,129,233,No,High,Moderate
+54,Male,No,No,Sometimes,5-7,Healthy,68,Moderate,Multiple,"['Blurred Vision', 'Blurred Vision', 'Chest Pain']",171,162,136,Yes,Low,High
+31,Male,Yes,Yes,Sometimes,<5,Healthy,75,High,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Tired']",164,92,172,Yes,Low,High
+31,Male,Yes,Yes,Sometimes,5-7,Healthy,92,Moderate,Heart,"['Tired', 'Chest Pain', 'Shortness of Breath']",91,90,114,Yes,High,Low
+23,Female,No,Yes,Regular,<5,Poor,104,High,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Tired']",147,163,209,No,High,High
+65,Female,Yes,No,Sometimes,5-7,Healthy,88,High,Multiple,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",142,141,275,No,Low,High
+49,Female,No,Yes,Regular,>7,Average,114,Moderate,Diabetes,"['Chest Pain', 'Frequent Urination', 'Chest Pain']",92,75,179,No,Low,Moderate
+56,Male,Yes,No,Never,5-7,Poor,87,Low,None,"['Shortness of Breath', 'Shortness of Breath', 'Tired']",128,133,138,Yes,Low,Moderate
+66,Female,Yes,No,Regular,5-7,Healthy,57,Moderate,Diabetes,"['Tired', 'Frequent Urination', 'Frequent Urination']",133,154,268,Yes,High,High
+78,Female,No,Yes,Regular,<5,Poor,105,Moderate,Multiple,"['Chest Pain', 'Frequent Urination', 'Chest Pain']",166,104,247,Yes,Moderate,High
+47,Female,No,No,Never,5-7,Poor,76,High,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",137,154,229,No,Moderate,Moderate
+25,Female,No,No,Sometimes,5-7,Average,78,Moderate,Heart,"['Blurred Vision', 'Frequent Urination', 'Tired']",176,84,111,Yes,High,High
+31,Female,No,Yes,Regular,5-7,Average,64,High,None,"['Shortness of Breath', 'Chest Pain', 'Blurred Vision']",116,126,202,No,Moderate,Moderate
+78,Male,No,No,Never,5-7,Healthy,49,High,Multiple,"['Frequent Urination', 'Tired', 'Shortness of Breath']",90,129,137,Yes,High,High
+22,Male,No,No,Regular,>7,Healthy,64,Low,Heart,"['Tired', 'Frequent Urination', 'Blurred Vision']",104,93,137,Yes,Moderate,Low
+36,Male,Yes,Yes,Sometimes,>7,Average,89,Moderate,Multiple,"['Shortness of Breath', 'Tired', 'Tired']",154,108,233,No,Low,High
+64,Male,No,No,Never,>7,Healthy,88,Moderate,Heart,"['Frequent Urination', 'Chest Pain', 'Tired']",111,175,213,Yes,Moderate,High
+77,Male,Yes,Yes,Regular,<5,Average,109,Low,Multiple,"['Chest Pain', 'Chest Pain', 'Tired']",113,112,159,Yes,Low,High
+20,Female,No,No,Never,5-7,Healthy,54,High,Multiple,"['Frequent Urination', 'Chest Pain', 'Blurred Vision']",143,152,296,Yes,Moderate,High
+26,Male,No,Yes,Regular,<5,Poor,101,Low,None,"['Blurred Vision', 'Frequent Urination', 'Chest Pain']",171,158,208,No,Low,High
+76,Female,Yes,Yes,Sometimes,5-7,Average,113,High,Diabetes,"['Frequent Urination', 'Tired', 'Tired']",107,161,168,Yes,Low,High
+35,Male,Yes,Yes,Regular,<5,Average,47,Moderate,None,"['Chest Pain', 'Tired', 'Chest Pain']",143,101,135,No,Low,High
+40,Female,Yes,Yes,Regular,5-7,Poor,103,Moderate,None,"['Chest Pain', 'Chest Pain', 'Frequent Urination']",140,107,157,Yes,High,Moderate
+19,Female,No,No,Regular,>7,Poor,48,Low,Heart,"['Tired', 'Frequent Urination', 'Tired']",91,81,208,No,Moderate,Moderate
+18,Female,Yes,No,Never,5-7,Poor,104,High,Diabetes,"['Blurred Vision', 'Tired', 'Blurred Vision']",106,144,219,No,Low,Moderate
+42,Male,No,Yes,Never,5-7,Healthy,106,Low,None,"['Blurred Vision', 'Tired', 'Blurred Vision']",90,73,140,No,Moderate,Moderate
+48,Male,Yes,Yes,Regular,>7,Healthy,108,High,None,"['Shortness of Breath', 'Chest Pain', 'Blurred Vision']",92,76,112,Yes,Moderate,Moderate
+47,Female,Yes,Yes,Sometimes,>7,Poor,59,Low,Diabetes,"['Blurred Vision', 'Blurred Vision', 'Chest Pain']",151,155,293,Yes,High,High
+42,Male,Yes,No,Regular,>7,Healthy,73,Low,None,"['Blurred Vision', 'Tired', 'Blurred Vision']",112,167,118,No,High,Moderate
+27,Male,No,Yes,Regular,>7,Healthy,113,Moderate,Heart,"['Tired', 'Tired', 'Tired']",97,73,290,Yes,High,High
+71,Female,Yes,Yes,Regular,5-7,Healthy,105,Moderate,Heart,"['Blurred Vision', 'Shortness of Breath', 'Chest Pain']",169,99,167,No,Moderate,High
+33,Female,Yes,No,Regular,>7,Healthy,82,Moderate,Diabetes,"['Frequent Urination', 'Chest Pain', 'Shortness of Breath']",139,128,142,Yes,High,Low
+52,Male,No,Yes,Regular,>7,Poor,93,High,Diabetes,"['Chest Pain', 'Blurred Vision', 'Chest Pain']",112,132,273,Yes,Low,High
+28,Female,Yes,No,Regular,5-7,Poor,48,High,Heart,"['Frequent Urination', 'Chest Pain', 'Tired']",127,170,171,No,High,Moderate
+38,Female,Yes,Yes,Sometimes,>7,Healthy,53,High,Multiple,"['Frequent Urination', 'Tired', 'Frequent Urination']",133,140,155,No,High,Moderate
+22,Female,Yes,No,Regular,5-7,Poor,118,Low,None,"['Shortness of Breath', 'Chest Pain', 'Frequent Urination']",152,155,247,Yes,Low,High
+44,Male,Yes,Yes,Sometimes,5-7,Healthy,45,High,Diabetes,"['Blurred Vision', 'Chest Pain', 'Tired']",99,157,253,Yes,Low,High
+41,Male,Yes,No,Never,<5,Average,66,Moderate,Heart,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",147,130,270,No,High,High
+29,Female,No,Yes,Never,<5,Poor,75,Moderate,Diabetes,"['Tired', 'Shortness of Breath', 'Chest Pain']",167,80,103,Yes,Low,High
+67,Male,No,No,Never,>7,Average,70,Low,Multiple,"['Tired', 'Frequent Urination', 'Shortness of Breath']",102,115,230,Yes,Moderate,High
+29,Male,No,No,Sometimes,5-7,Poor,87,Moderate,Diabetes,"['Chest Pain', 'Frequent Urination', 'Shortness of Breath']",179,107,204,No,High,High
+76,Female,Yes,No,Never,>7,Average,70,High,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Chest Pain']",133,125,234,Yes,Low,High
+18,Female,Yes,Yes,Regular,5-7,Poor,118,Low,None,"['Chest Pain', 'Shortness of Breath', 'Shortness of Breath']",156,168,105,Yes,High,High
+70,Male,No,Yes,Never,<5,Healthy,63,High,None,"['Frequent Urination', 'Blurred Vision', 'Chest Pain']",101,93,145,Yes,High,High
+18,Female,No,Yes,Never,>7,Healthy,104,High,None,"['Chest Pain', 'Shortness of Breath', 'Chest Pain']",127,148,181,Yes,Low,Moderate
+42,Male,Yes,Yes,Regular,5-7,Poor,119,Moderate,Multiple,"['Frequent Urination', 'Blurred Vision', 'Blurred Vision']",145,155,204,Yes,Moderate,High
+36,Female,Yes,No,Sometimes,>7,Healthy,98,High,Heart,"['Shortness of Breath', 'Tired', 'Chest Pain']",119,153,298,No,Moderate,High
+64,Male,Yes,Yes,Regular,>7,Average,63,Moderate,Multiple,"['Blurred Vision', 'Frequent Urination', 'Chest Pain']",154,159,166,No,Low,High
+22,Female,Yes,Yes,Regular,<5,Average,99,High,Heart,"['Tired', 'Shortness of Breath', 'Frequent Urination']",175,164,281,No,Moderate,High
+27,Male,Yes,No,Never,<5,Healthy,83,Low,None,"['Tired', 'Tired', 'Frequent Urination']",155,110,126,No,High,High
+71,Male,No,No,Sometimes,5-7,Poor,90,Low,Heart,"['Blurred Vision', 'Chest Pain', 'Frequent Urination']",92,123,213,Yes,Moderate,High
+36,Female,No,Yes,Regular,>7,Poor,86,High,None,"['Blurred Vision', 'Shortness of Breath', 'Chest Pain']",103,157,105,Yes,Low,Moderate
+64,Female,No,Yes,Sometimes,>7,Poor,79,Moderate,Multiple,"['Tired', 'Frequent Urination', 'Shortness of Breath']",154,76,297,Yes,Low,High
+66,Female,Yes,Yes,Sometimes,5-7,Poor,118,Moderate,Multiple,"['Tired', 'Chest Pain', 'Frequent Urination']",112,106,259,No,High,High
+53,Female,Yes,No,Never,<5,Average,62,High,None,"['Tired', 'Shortness of Breath', 'Chest Pain']",109,108,198,Yes,High,Moderate
+18,Female,No,Yes,Never,5-7,Average,57,Moderate,Heart,"['Shortness of Breath', 'Shortness of Breath', 'Shortness of Breath']",156,92,242,Yes,Moderate,High
+73,Male,Yes,Yes,Never,<5,Average,104,Low,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Chest Pain']",139,116,263,No,Low,High
+28,Female,No,Yes,Regular,5-7,Average,50,Low,None,"['Frequent Urination', 'Tired', 'Tired']",133,122,220,No,Moderate,Low
+51,Female,No,No,Regular,5-7,Average,81,High,Heart,"['Blurred Vision', 'Tired', 'Shortness of Breath']",146,113,269,Yes,Low,High
+64,Male,No,No,Sometimes,5-7,Poor,76,Low,Multiple,"['Chest Pain', 'Frequent Urination', 'Blurred Vision']",177,74,161,No,Low,High
+40,Male,No,No,Regular,5-7,Healthy,54,Low,Heart,"['Chest Pain', 'Chest Pain', 'Shortness of Breath']",130,172,143,No,Low,Low
+64,Male,Yes,Yes,Never,<5,Average,65,Moderate,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",164,83,130,No,Moderate,High
+21,Male,No,No,Regular,5-7,Average,62,Moderate,Heart,"['Shortness of Breath', 'Blurred Vision', 'Chest Pain']",132,130,285,Yes,Moderate,High
+64,Female,Yes,Yes,Regular,<5,Poor,81,High,Multiple,"['Tired', 'Blurred Vision', 'Chest Pain']",173,165,215,No,Moderate,High
+27,Male,Yes,No,Never,<5,Poor,60,Moderate,None,"['Blurred Vision', 'Tired', 'Tired']",119,122,184,No,Moderate,Moderate
+73,Male,Yes,Yes,Regular,>7,Poor,117,Low,Multiple,"['Tired', 'Tired', 'Tired']",105,139,287,No,Moderate,High
+39,Female,Yes,No,Never,<5,Healthy,116,High,Diabetes,"['Frequent Urination', 'Blurred Vision', 'Blurred Vision']",93,72,127,Yes,Low,Moderate
+53,Male,Yes,Yes,Regular,>7,Average,115,High,Diabetes,"['Blurred Vision', 'Blurred Vision', 'Frequent Urination']",145,74,176,No,Moderate,High
+18,Female,No,Yes,Sometimes,<5,Poor,73,Moderate,None,"['Chest Pain', 'Frequent Urination', 'Shortness of Breath']",99,150,177,Yes,High,Moderate
+63,Female,No,No,Never,<5,Poor,103,High,None,"['Frequent Urination', 'Frequent Urination', 'Frequent Urination']",109,87,218,No,Low,High
+67,Female,No,Yes,Never,<5,Poor,96,Low,Diabetes,"['Frequent Urination', 'Chest Pain', 'Blurred Vision']",130,72,249,Yes,Low,High
+67,Male,Yes,No,Never,>7,Average,48,Low,None,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",145,164,188,Yes,Low,High
+67,Female,Yes,No,Sometimes,<5,Poor,49,High,Diabetes,"['Frequent Urination', 'Frequent Urination', 'Tired']",113,124,218,Yes,Low,High
+19,Female,Yes,Yes,Never,5-7,Healthy,61,High,None,"['Frequent Urination', 'Shortness of Breath', 'Chest Pain']",106,143,207,No,Moderate,Moderate
+56,Female,No,No,Never,5-7,Healthy,106,Low,None,"['Frequent Urination', 'Frequent Urination', 'Frequent Urination']",155,174,214,Yes,Moderate,High
+19,Female,Yes,No,Sometimes,5-7,Average,55,Low,Multiple,"['Chest Pain', 'Frequent Urination', 'Shortness of Breath']",177,174,223,No,High,High
+52,Female,No,Yes,Regular,>7,Average,56,Moderate,None,"['Chest Pain', 'Blurred Vision', 'Blurred Vision']",175,85,220,Yes,High,High
+33,Male,Yes,No,Regular,<5,Average,51,Low,Heart,"['Blurred Vision', 'Tired', 'Chest Pain']",166,124,240,No,Low,High
+64,Male,Yes,Yes,Never,<5,Healthy,50,Moderate,None,"['Frequent Urination', 'Chest Pain', 'Chest Pain']",105,119,271,Yes,Moderate,High
+60,Male,Yes,No,Never,5-7,Average,78,Moderate,None,"['Frequent Urination', 'Chest Pain', 'Tired']",151,172,116,Yes,Low,High
+57,Female,Yes,Yes,Sometimes,>7,Average,117,Low,Heart,"['Chest Pain', 'Chest Pain', 'Shortness of Breath']",159,124,135,Yes,Moderate,High
+28,Female,Yes,No,Regular,<5,Average,118,Low,Diabetes,"['Tired', 'Frequent Urination', 'Tired']",90,173,229,Yes,High,Low
+43,Male,No,Yes,Sometimes,<5,Poor,47,Low,Diabetes,"['Shortness of Breath', 'Shortness of Breath', 'Chest Pain']",154,93,148,Yes,Moderate,High
+32,Female,Yes,No,Never,<5,Poor,107,High,Diabetes,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",99,126,115,No,Moderate,Moderate
+26,Male,Yes,Yes,Never,<5,Poor,50,Low,None,"['Chest Pain', 'Shortness of Breath', 'Blurred Vision']",171,77,108,Yes,High,High
+32,Female,No,Yes,Never,>7,Healthy,109,Low,None,"['Tired', 'Frequent Urination', 'Shortness of Breath']",161,143,288,Yes,High,High
+77,Female,No,Yes,Regular,<5,Average,83,Moderate,Diabetes,"['Frequent Urination', 'Tired', 'Blurred Vision']",167,94,279,No,Moderate,High
+21,Female,Yes,No,Regular,<5,Poor,99,Moderate,Multiple,"['Blurred Vision', 'Shortness of Breath', 'Tired']",159,175,183,Yes,Moderate,High
+40,Male,Yes,No,Sometimes,<5,Average,74,High,Heart,"['Tired', 'Blurred Vision', 'Tired']",104,147,256,No,High,High
+39,Female,No,No,Sometimes,<5,Healthy,69,Moderate,Heart,"['Chest Pain', 'Shortness of Breath', 'Frequent Urination']",108,153,171,No,Low,Low
+44,Male,No,No,Sometimes,5-7,Average,78,Moderate,Diabetes,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",155,151,197,No,Moderate,High
+53,Female,No,No,Never,>7,Poor,45,Moderate,Heart,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",119,74,242,No,High,High
+34,Female,No,Yes,Regular,<5,Poor,106,Low,Multiple,"['Shortness of Breath', 'Shortness of Breath', 'Frequent Urination']",109,75,134,No,Low,Moderate
+69,Female,Yes,Yes,Regular,>7,Poor,89,Low,Heart,"['Blurred Vision', 'Frequent Urination', 'Blurred Vision']",161,149,162,No,Low,High
+46,Female,No,No,Sometimes,5-7,Average,64,High,Diabetes,"['Blurred Vision', 'Blurred Vision', 'Chest Pain']",163,165,189,Yes,High,High
+62,Male,No,No,Regular,>7,Healthy,110,Low,None,"['Blurred Vision', 'Chest Pain', 'Blurred Vision']",134,137,136,No,Low,High
+26,Female,Yes,No,Never,>7,Healthy,80,Moderate,Heart,"['Shortness of Breath', 'Tired', 'Shortness of Breath']",176,77,104,Yes,High,High
+27,Male,No,Yes,Sometimes,<5,Average,118,Moderate,Diabetes,"['Tired', 'Chest Pain', 'Tired']",169,147,193,Yes,High,High
+68,Female,Yes,No,Regular,<5,Poor,47,Low,Multiple,"['Tired', 'Chest Pain', 'Tired']",103,113,239,No,Low,High
+45,Female,No,Yes,Regular,5-7,Average,77,Low,Diabetes,"['Shortness of Breath', 'Chest Pain', 'Tired']",121,173,139,No,Moderate,Moderate
+64,Male,No,Yes,Never,>7,Poor,61,Low,Heart,"['Tired', 'Blurred Vision', 'Frequent Urination']",163,130,194,No,Low,High
+53,Male,Yes,Yes,Regular,5-7,Poor,83,Low,None,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",133,76,243,Yes,Moderate,High
+52,Male,No,No,Regular,5-7,Average,55,Moderate,Multiple,"['Blurred Vision', 'Tired', 'Frequent Urination']",129,133,254,No,Moderate,High
+26,Male,Yes,No,Sometimes,5-7,Healthy,98,High,Multiple,"['Blurred Vision', 'Frequent Urination', 'Tired']",144,146,189,Yes,High,High
+44,Male,No,Yes,Regular,<5,Average,88,Moderate,Multiple,"['Tired', 'Blurred Vision', 'Shortness of Breath']",143,129,225,No,High,High
+66,Male,Yes,Yes,Sometimes,>7,Average,116,High,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Blurred Vision']",96,78,173,No,High,High
+58,Male,No,Yes,Sometimes,<5,Poor,53,Moderate,Heart,"['Shortness of Breath', 'Tired', 'Chest Pain']",96,116,129,No,High,Moderate
+57,Female,Yes,Yes,Never,<5,Average,89,High,None,"['Shortness of Breath', 'Chest Pain', 'Tired']",99,109,295,Yes,High,High
+77,Male,No,No,Regular,<5,Poor,118,High,Multiple,"['Frequent Urination', 'Tired', 'Chest Pain']",99,111,148,No,Moderate,High
+71,Male,Yes,No,Sometimes,>7,Healthy,56,Low,Multiple,"['Blurred Vision', 'Chest Pain', 'Tired']",174,76,221,Yes,High,High
+63,Female,No,Yes,Sometimes,<5,Poor,77,Moderate,Diabetes,"['Frequent Urination', 'Chest Pain', 'Tired']",151,167,119,No,Low,High
+53,Female,Yes,Yes,Sometimes,<5,Healthy,93,High,Multiple,"['Chest Pain', 'Chest Pain', 'Frequent Urination']",92,103,135,No,Low,Moderate
+64,Male,Yes,No,Sometimes,5-7,Healthy,73,High,None,"['Chest Pain', 'Tired', 'Chest Pain']",177,110,215,Yes,High,High
+60,Female,No,No,Sometimes,5-7,Healthy,98,Moderate,Multiple,"['Chest Pain', 'Chest Pain', 'Blurred Vision']",116,138,123,Yes,Moderate,Moderate
+71,Male,Yes,Yes,Sometimes,>7,Healthy,85,High,None,"['Shortness of Breath', 'Chest Pain', 'Frequent Urination']",96,164,151,Yes,High,High
+19,Male,No,Yes,Regular,<5,Average,48,Low,None,"['Shortness of Breath', 'Tired', 'Tired']",131,102,274,No,Moderate,High
+37,Male,No,Yes,Regular,>7,Healthy,93,Low,Diabetes,"['Blurred Vision', 'Shortness of Breath', 'Frequent Urination']",112,91,140,No,Low,Low
+66,Male,Yes,Yes,Never,<5,Poor,78,High,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Chest Pain']",90,86,288,Yes,Moderate,High
+70,Male,No,No,Sometimes,>7,Poor,106,Low,Heart,"['Chest Pain', 'Chest Pain', 'Chest Pain']",143,122,246,Yes,Low,High
+25,Female,No,Yes,Sometimes,5-7,Average,69,High,Heart,"['Frequent Urination', 'Chest Pain', 'Tired']",153,176,135,Yes,High,High
+60,Male,No,Yes,Regular,5-7,Poor,56,High,Heart,"['Chest Pain', 'Shortness of Breath', 'Tired']",165,126,111,No,Low,High
+43,Male,No,Yes,Regular,>7,Average,76,High,Multiple,"['Frequent Urination', 'Chest Pain', 'Frequent Urination']",121,154,241,Yes,Moderate,High
+61,Female,Yes,No,Regular,>7,Healthy,86,Moderate,Multiple,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",123,90,247,Yes,Low,High
+29,Female,No,No,Regular,5-7,Healthy,85,High,None,"['Tired', 'Shortness of Breath', 'Chest Pain']",161,93,168,Yes,Moderate,High
+71,Female,No,Yes,Sometimes,5-7,Poor,77,Low,Heart,"['Shortness of Breath', 'Blurred Vision', 'Blurred Vision']",113,75,103,No,Low,High
+51,Female,No,Yes,Sometimes,>7,Healthy,71,Moderate,None,"['Tired', 'Shortness of Breath', 'Tired']",161,84,264,No,Low,High
+74,Female,No,Yes,Never,>7,Average,91,Low,Heart,"['Tired', 'Shortness of Breath', 'Shortness of Breath']",162,155,165,No,Moderate,High
+29,Female,Yes,Yes,Regular,>7,Average,65,High,Diabetes,"['Frequent Urination', 'Tired', 'Chest Pain']",157,161,105,No,High,High
+40,Male,No,Yes,Regular,5-7,Healthy,83,Low,None,"['Chest Pain', 'Shortness of Breath', 'Shortness of Breath']",91,91,286,No,Low,High
+70,Female,No,Yes,Regular,<5,Healthy,103,Low,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Shortness of Breath']",94,153,203,Yes,Low,High
+27,Female,No,Yes,Sometimes,>7,Average,60,Low,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Chest Pain']",101,145,191,No,High,Low
+32,Male,No,Yes,Sometimes,<5,Healthy,70,High,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Tired']",155,153,228,Yes,High,High
+58,Female,No,Yes,Sometimes,>7,Healthy,71,Moderate,Multiple,"['Tired', 'Blurred Vision', 'Frequent Urination']",90,175,228,Yes,Low,Moderate
+65,Male,No,Yes,Regular,5-7,Average,49,Moderate,None,"['Frequent Urination', 'Blurred Vision', 'Tired']",149,138,112,No,Low,High
+57,Female,Yes,No,Sometimes,5-7,Average,83,High,Heart,"['Shortness of Breath', 'Tired', 'Blurred Vision']",110,130,266,No,Low,High
+51,Female,No,No,Sometimes,>7,Average,84,High,Multiple,"['Tired', 'Tired', 'Blurred Vision']",143,116,236,Yes,Moderate,High
+44,Male,No,No,Sometimes,>7,Healthy,45,Low,Heart,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",116,118,105,No,Low,Moderate
+78,Female,No,Yes,Sometimes,<5,Healthy,101,Low,Heart,"['Frequent Urination', 'Shortness of Breath', 'Tired']",100,98,121,No,Low,High
+67,Female,Yes,No,Sometimes,<5,Poor,61,High,None,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",180,144,128,Yes,Low,High
+78,Male,No,No,Never,5-7,Average,89,Moderate,Heart,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",160,80,127,No,Moderate,High
+75,Female,No,No,Never,5-7,Poor,70,Low,Multiple,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",97,97,262,No,Moderate,High
+31,Female,Yes,No,Sometimes,>7,Poor,81,Low,Diabetes,"['Frequent Urination', 'Blurred Vision', 'Frequent Urination']",113,125,266,No,Low,High
+59,Male,No,Yes,Never,5-7,Average,62,Moderate,Heart,"['Frequent Urination', 'Frequent Urination', 'Tired']",154,136,156,Yes,Low,High
+38,Male,Yes,No,Never,5-7,Poor,58,Low,Heart,"['Frequent Urination', 'Tired', 'Chest Pain']",99,119,122,Yes,Low,Moderate
+55,Male,Yes,Yes,Sometimes,<5,Healthy,105,Low,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",132,89,171,No,Low,Moderate
+27,Male,No,Yes,Never,<5,Poor,93,Moderate,Multiple,"['Blurred Vision', 'Shortness of Breath', 'Tired']",150,102,200,Yes,Low,High
+60,Female,Yes,No,Never,>7,Healthy,117,Moderate,Multiple,"['Blurred Vision', 'Tired', 'Frequent Urination']",125,140,123,No,Low,Moderate
+73,Male,Yes,No,Never,5-7,Healthy,47,Moderate,Multiple,"['Shortness of Breath', 'Blurred Vision', 'Chest Pain']",172,91,293,Yes,Moderate,High
+60,Male,No,No,Never,>7,Healthy,116,Low,None,"['Tired', 'Frequent Urination', 'Tired']",177,124,286,No,High,High
+70,Female,No,Yes,Regular,>7,Poor,107,Moderate,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Blurred Vision']",174,105,283,No,High,High
+79,Male,No,Yes,Sometimes,<5,Poor,51,High,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Shortness of Breath']",96,177,298,Yes,Moderate,High
+44,Female,Yes,No,Sometimes,>7,Poor,91,Low,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Chest Pain']",152,168,121,No,High,High
+37,Male,Yes,No,Sometimes,5-7,Healthy,93,Moderate,None,"['Blurred Vision', 'Frequent Urination', 'Chest Pain']",106,156,272,No,Moderate,High
+32,Male,No,No,Regular,5-7,Healthy,116,Low,Multiple,"['Chest Pain', 'Frequent Urination', 'Shortness of Breath']",90,90,255,Yes,High,High
+30,Male,No,Yes,Never,<5,Poor,69,Low,Heart,"['Shortness of Breath', 'Frequent Urination', 'Shortness of Breath']",154,142,218,Yes,High,High
+80,Male,Yes,No,Never,<5,Poor,69,Low,Multiple,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",126,161,165,Yes,Low,High
+64,Male,No,Yes,Sometimes,5-7,Poor,46,Low,Heart,"['Shortness of Breath', 'Shortness of Breath', 'Blurred Vision']",112,158,106,Yes,Moderate,High
+62,Female,Yes,No,Sometimes,<5,Poor,73,High,Heart,"['Shortness of Breath', 'Chest Pain', 'Blurred Vision']",154,78,273,Yes,Moderate,High
+36,Male,No,Yes,Regular,5-7,Average,56,Low,None,"['Frequent Urination', 'Chest Pain', 'Blurred Vision']",90,110,227,No,High,Low
+68,Male,No,Yes,Sometimes,>7,Average,101,Moderate,Multiple,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",107,88,187,No,High,High
+20,Male,No,No,Never,5-7,Average,58,Moderate,Multiple,"['Frequent Urination', 'Frequent Urination', 'Tired']",131,113,256,Yes,High,High
+56,Female,No,Yes,Regular,>7,Average,83,Moderate,Heart,"['Frequent Urination', 'Shortness of Breath', 'Tired']",163,123,211,Yes,High,High
+41,Female,Yes,Yes,Never,<5,Healthy,91,Low,None,"['Chest Pain', 'Blurred Vision', 'Tired']",136,136,182,No,High,Moderate
+32,Male,Yes,No,Sometimes,<5,Average,85,High,Multiple,"['Frequent Urination', 'Tired', 'Tired']",114,148,152,Yes,Moderate,Moderate
+52,Female,Yes,Yes,Regular,>7,Average,58,High,Multiple,"['Blurred Vision', 'Blurred Vision', 'Blurred Vision']",115,81,197,Yes,High,Moderate
+26,Male,Yes,No,Regular,<5,Poor,120,Low,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Chest Pain']",150,135,108,No,Moderate,High
+44,Female,No,No,Regular,5-7,Poor,115,High,None,"['Blurred Vision', 'Chest Pain', 'Tired']",144,174,289,No,Moderate,High
+74,Female,No,No,Sometimes,5-7,Poor,51,Low,None,"['Chest Pain', 'Frequent Urination', 'Frequent Urination']",101,155,153,No,Moderate,High
+36,Male,Yes,No,Regular,5-7,Average,102,Moderate,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",155,98,271,Yes,Moderate,High
+45,Male,No,Yes,Never,5-7,Poor,76,Moderate,Multiple,"['Tired', 'Tired', 'Blurred Vision']",110,118,119,No,High,Moderate
+26,Male,Yes,No,Sometimes,>7,Healthy,97,Moderate,Multiple,"['Tired', 'Blurred Vision', 'Frequent Urination']",127,80,147,Yes,Moderate,Low
+20,Female,No,Yes,Sometimes,5-7,Poor,103,High,None,"['Frequent Urination', 'Shortness of Breath', 'Blurred Vision']",101,87,297,No,Low,High
+53,Male,No,Yes,Sometimes,<5,Healthy,71,Moderate,Diabetes,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",157,169,247,Yes,Moderate,High
+41,Male,Yes,Yes,Regular,5-7,Healthy,72,Low,None,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",123,71,295,Yes,Low,High
+19,Male,Yes,Yes,Regular,5-7,Poor,74,Low,Heart,"['Tired', 'Chest Pain', 'Blurred Vision']",125,70,174,No,Moderate,Moderate
+80,Female,Yes,No,Never,>7,Average,71,High,Multiple,"['Frequent Urination', 'Tired', 'Chest Pain']",165,168,102,No,Low,High
+48,Male,No,Yes,Regular,<5,Healthy,99,High,Multiple,"['Chest Pain', 'Blurred Vision', 'Blurred Vision']",155,82,265,No,High,High
+74,Female,Yes,Yes,Never,>7,Healthy,82,Moderate,None,"['Tired', 'Shortness of Breath', 'Chest Pain']",123,142,112,No,Moderate,High
+53,Male,No,No,Regular,<5,Average,46,Low,Heart,"['Tired', 'Chest Pain', 'Shortness of Breath']",170,134,142,No,High,High
+58,Male,Yes,Yes,Never,<5,Healthy,77,Low,Diabetes,"['Blurred Vision', 'Blurred Vision', 'Blurred Vision']",169,95,192,Yes,High,High
+46,Male,Yes,No,Regular,>7,Average,81,Moderate,Heart,"['Blurred Vision', 'Tired', 'Tired']",140,72,282,Yes,Low,High
+28,Male,Yes,No,Regular,<5,Poor,66,High,Diabetes,"['Chest Pain', 'Frequent Urination', 'Chest Pain']",163,165,246,No,High,High
+28,Female,Yes,Yes,Regular,<5,Healthy,68,High,None,"['Blurred Vision', 'Tired', 'Blurred Vision']",134,141,199,Yes,High,Moderate
+42,Female,No,No,Regular,5-7,Average,83,High,Multiple,"['Shortness of Breath', 'Blurred Vision', 'Blurred Vision']",159,123,281,No,Moderate,High
+32,Female,Yes,No,Sometimes,>7,Healthy,106,Low,Multiple,"['Shortness of Breath', 'Chest Pain', 'Shortness of Breath']",128,74,287,Yes,Low,High
+49,Female,No,Yes,Regular,<5,Healthy,105,Moderate,Heart,"['Blurred Vision', 'Blurred Vision', 'Frequent Urination']",157,112,200,Yes,Moderate,High
+42,Female,No,No,Regular,<5,Poor,90,Moderate,None,"['Chest Pain', 'Chest Pain', 'Frequent Urination']",145,163,231,No,Moderate,High
+40,Male,Yes,No,Never,>7,Average,119,Moderate,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Shortness of Breath']",127,160,196,Yes,Low,Low
+21,Male,No,No,Never,5-7,Poor,93,Low,Diabetes,"['Tired', 'Tired', 'Blurred Vision']",148,93,176,No,High,High
+35,Male,No,Yes,Never,5-7,Poor,120,Moderate,None,"['Chest Pain', 'Tired', 'Chest Pain']",138,179,122,No,High,Moderate
+75,Male,Yes,No,Sometimes,<5,Poor,53,Low,Heart,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",104,177,204,No,Moderate,High
+21,Male,No,No,Never,<5,Average,69,High,None,"['Shortness of Breath', 'Blurred Vision', 'Frequent Urination']",175,108,261,Yes,Moderate,High
+23,Male,No,Yes,Sometimes,<5,Poor,102,Low,Diabetes,"['Blurred Vision', 'Shortness of Breath', 'Frequent Urination']",178,115,149,Yes,Moderate,High
+77,Female,Yes,Yes,Sometimes,<5,Healthy,82,Low,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Blurred Vision']",158,72,139,No,Low,High
+21,Male,No,Yes,Never,>7,Average,106,High,None,"['Blurred Vision', 'Chest Pain', 'Frequent Urination']",127,168,192,Yes,Low,Moderate
+34,Male,No,No,Regular,<5,Healthy,80,Moderate,Multiple,"['Frequent Urination', 'Tired', 'Shortness of Breath']",145,144,181,No,Moderate,High
+39,Male,No,No,Sometimes,>7,Healthy,95,High,Diabetes,"['Blurred Vision', 'Chest Pain', 'Blurred Vision']",153,144,101,No,Low,High
+79,Female,No,Yes,Sometimes,>7,Healthy,114,Low,Heart,"['Chest Pain', 'Tired', 'Frequent Urination']",127,180,130,No,High,High
+61,Female,No,No,Never,>7,Average,49,Low,Multiple,"['Tired', 'Tired', 'Frequent Urination']",92,178,283,Yes,High,High
+34,Female,Yes,Yes,Sometimes,5-7,Poor,116,High,Diabetes,"['Chest Pain', 'Tired', 'Tired']",177,118,217,No,Moderate,High
+41,Female,Yes,No,Sometimes,5-7,Healthy,62,High,None,"['Tired', 'Tired', 'Frequent Urination']",164,87,120,No,High,High
+80,Female,Yes,Yes,Regular,5-7,Poor,113,High,Diabetes,"['Chest Pain', 'Blurred Vision', 'Tired']",109,174,215,Yes,Moderate,High
+23,Male,Yes,No,Sometimes,5-7,Healthy,71,Low,Diabetes,"['Blurred Vision', 'Blurred Vision', 'Blurred Vision']",120,134,177,No,Low,Low
+75,Female,Yes,Yes,Regular,<5,Healthy,97,High,Diabetes,"['Tired', 'Tired', 'Chest Pain']",116,109,162,Yes,Moderate,High
+72,Male,Yes,Yes,Regular,5-7,Poor,83,Moderate,Diabetes,"['Tired', 'Frequent Urination', 'Shortness of Breath']",165,164,152,Yes,Low,High
+57,Male,Yes,No,Never,<5,Healthy,120,High,Multiple,"['Blurred Vision', 'Tired', 'Tired']",114,89,226,No,Moderate,Moderate
+77,Male,No,No,Regular,<5,Poor,56,Low,Heart,"['Tired', 'Shortness of Breath', 'Shortness of Breath']",129,76,127,Yes,Moderate,High
+76,Male,Yes,Yes,Regular,5-7,Poor,94,High,Multiple,"['Frequent Urination', 'Frequent Urination', 'Tired']",114,83,186,No,High,High
+34,Male,Yes,Yes,Never,<5,Average,51,High,Heart,"['Chest Pain', 'Tired', 'Tired']",104,164,129,No,Moderate,Moderate
+35,Male,No,No,Regular,<5,Poor,120,High,Diabetes,"['Blurred Vision', 'Shortness of Breath', 'Frequent Urination']",158,133,181,Yes,High,High
+30,Female,No,No,Sometimes,<5,Healthy,75,Low,Diabetes,"['Frequent Urination', 'Blurred Vision', 'Tired']",161,110,216,No,Moderate,High
+30,Female,No,Yes,Sometimes,<5,Healthy,85,High,Multiple,"['Tired', 'Frequent Urination', 'Shortness of Breath']",100,149,238,No,Low,Moderate
+24,Female,Yes,No,Regular,>7,Poor,60,Low,Heart,"['Tired', 'Blurred Vision', 'Tired']",145,180,288,No,High,High
+25,Female,No,No,Never,<5,Healthy,112,High,Diabetes,"['Frequent Urination', 'Frequent Urination', 'Tired']",138,149,191,No,High,Moderate
+41,Male,No,Yes,Sometimes,<5,Poor,101,Moderate,Heart,"['Blurred Vision', 'Tired', 'Chest Pain']",100,129,164,No,Low,Moderate
+73,Female,Yes,No,Sometimes,>7,Poor,119,High,Heart,"['Chest Pain', 'Chest Pain', 'Blurred Vision']",107,71,117,Yes,High,High
+18,Female,No,No,Regular,5-7,Healthy,62,High,Multiple,"['Blurred Vision', 'Chest Pain', 'Shortness of Breath']",115,157,272,No,High,High
+30,Male,Yes,No,Regular,>7,Healthy,78,Moderate,Multiple,"['Blurred Vision', 'Tired', 'Chest Pain']",143,138,160,Yes,High,High
+59,Male,Yes,Yes,Never,5-7,Healthy,93,Low,Multiple,"['Chest Pain', 'Chest Pain', 'Chest Pain']",173,93,169,Yes,High,High
+76,Male,No,No,Never,>7,Average,59,Low,Diabetes,"['Tired', 'Tired', 'Tired']",105,147,297,Yes,Low,High
+45,Female,Yes,Yes,Never,>7,Poor,108,Moderate,Heart,"['Chest Pain', 'Shortness of Breath', 'Blurred Vision']",130,94,296,Yes,High,High
+26,Male,Yes,No,Regular,<5,Healthy,72,High,Heart,"['Chest Pain', 'Shortness of Breath', 'Tired']",154,85,195,No,High,High
+26,Female,Yes,Yes,Regular,>7,Average,58,High,Multiple,"['Chest Pain', 'Tired', 'Frequent Urination']",129,114,119,Yes,High,Moderate
+27,Female,No,Yes,Sometimes,<5,Average,108,Moderate,Heart,"['Blurred Vision', 'Tired', 'Frequent Urination']",137,100,199,No,Moderate,Low
+67,Male,Yes,No,Regular,<5,Healthy,55,Moderate,None,"['Tired', 'Chest Pain', 'Tired']",143,115,261,No,Low,High
+65,Male,No,Yes,Never,<5,Healthy,49,High,None,"['Frequent Urination', 'Shortness of Breath', 'Shortness of Breath']",174,102,236,Yes,Low,High
+34,Male,No,No,Never,5-7,Average,54,Moderate,Diabetes,"['Shortness of Breath', 'Shortness of Breath', 'Chest Pain']",103,70,146,No,Low,Low
+24,Female,No,Yes,Never,<5,Healthy,117,High,None,"['Tired', 'Frequent Urination', 'Frequent Urination']",106,99,205,Yes,Moderate,Moderate
+34,Male,Yes,Yes,Never,<5,Healthy,70,High,Heart,"['Tired', 'Chest Pain', 'Blurred Vision']",118,107,202,Yes,High,Moderate
+52,Male,Yes,Yes,Never,5-7,Average,97,Moderate,Multiple,"['Shortness of Breath', 'Chest Pain', 'Chest Pain']",158,103,197,No,High,High
+72,Female,No,No,Sometimes,>7,Healthy,91,Low,None,"['Chest Pain', 'Frequent Urination', 'Blurred Vision']",155,141,288,No,Low,High
+79,Male,No,No,Never,>7,Average,94,Moderate,Heart,"['Frequent Urination', 'Tired', 'Chest Pain']",133,142,159,No,High,High
+42,Female,No,Yes,Sometimes,>7,Average,65,Low,Multiple,"['Chest Pain', 'Chest Pain', 'Frequent Urination']",115,120,240,No,High,Moderate
+33,Female,Yes,No,Never,5-7,Poor,87,Moderate,None,"['Blurred Vision', 'Blurred Vision', 'Tired']",140,110,270,No,High,High
+30,Female,Yes,No,Never,<5,Average,54,Moderate,Multiple,"['Tired', 'Shortness of Breath', 'Tired']",123,117,287,No,Low,High
+27,Female,No,No,Sometimes,<5,Average,100,Moderate,None,"['Frequent Urination', 'Shortness of Breath', 'Tired']",110,177,179,Yes,Low,Low
+25,Female,No,No,Never,5-7,Healthy,82,Low,None,"['Shortness of Breath', 'Tired', 'Tired']",149,129,236,No,High,High
+48,Male,No,No,Regular,5-7,Average,93,Moderate,Heart,"['Shortness of Breath', 'Chest Pain', 'Tired']",169,103,257,No,Low,High
+45,Female,No,No,Sometimes,5-7,Healthy,118,High,None,"['Frequent Urination', 'Chest Pain', 'Frequent Urination']",92,145,178,No,Low,Moderate
+29,Female,Yes,Yes,Never,5-7,Average,67,High,Heart,"['Tired', 'Tired', 'Blurred Vision']",159,126,236,No,Moderate,High
+57,Female,Yes,Yes,Regular,5-7,Healthy,120,High,Diabetes,"['Tired', 'Frequent Urination', 'Blurred Vision']",154,124,131,No,High,High
+18,Male,No,Yes,Never,5-7,Poor,105,High,None,"['Blurred Vision', 'Chest Pain', 'Chest Pain']",96,143,204,Yes,High,Moderate
+27,Male,No,Yes,Never,<5,Poor,114,Moderate,Multiple,"['Chest Pain', 'Frequent Urination', 'Chest Pain']",160,147,211,Yes,Low,High
+55,Male,No,No,Regular,>7,Average,67,Moderate,Multiple,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",108,155,248,No,Low,High
+63,Female,Yes,Yes,Sometimes,<5,Poor,102,Low,None,"['Frequent Urination', 'Frequent Urination', 'Blurred Vision']",139,70,284,No,High,High
+46,Female,No,Yes,Never,>7,Average,59,Low,Diabetes,"['Chest Pain', 'Blurred Vision', 'Chest Pain']",150,70,274,Yes,Low,High
+30,Female,Yes,No,Never,5-7,Poor,51,Moderate,None,"['Tired', 'Blurred Vision', 'Blurred Vision']",176,160,279,Yes,Low,High
+44,Female,Yes,No,Never,>7,Healthy,88,High,Multiple,"['Tired', 'Tired', 'Tired']",136,155,255,No,High,High
+53,Female,No,Yes,Never,<5,Poor,89,Moderate,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",160,102,148,Yes,Low,High
+49,Female,Yes,No,Never,5-7,Average,116,High,Diabetes,"['Frequent Urination', 'Tired', 'Blurred Vision']",100,105,123,No,Moderate,Moderate
+79,Male,No,Yes,Regular,5-7,Average,78,Low,Diabetes,"['Blurred Vision', 'Chest Pain', 'Frequent Urination']",165,96,156,No,High,High
+57,Male,No,Yes,Sometimes,>7,Poor,78,Moderate,None,"['Frequent Urination', 'Chest Pain', 'Blurred Vision']",127,128,166,Yes,Low,Moderate
+28,Female,Yes,No,Regular,<5,Healthy,114,Low,Heart,"['Chest Pain', 'Tired', 'Frequent Urination']",165,135,186,Yes,Moderate,High
+23,Female,Yes,Yes,Sometimes,5-7,Poor,105,High,Heart,"['Shortness of Breath', 'Shortness of Breath', 'Frequent Urination']",136,119,102,No,Low,Moderate
+68,Female,No,Yes,Regular,5-7,Poor,79,Low,Diabetes,"['Frequent Urination', 'Tired', 'Blurred Vision']",138,174,107,Yes,Low,High
+21,Female,Yes,Yes,Regular,5-7,Average,53,Moderate,Multiple,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",100,142,200,Yes,High,Low
+40,Female,Yes,No,Never,5-7,Healthy,91,High,None,"['Shortness of Breath', 'Chest Pain', 'Blurred Vision']",177,126,288,No,Moderate,High
+33,Male,Yes,No,Sometimes,>7,Poor,89,Low,Diabetes,"['Chest Pain', 'Tired', 'Shortness of Breath']",102,81,265,No,High,High
+18,Male,Yes,Yes,Never,>7,Healthy,46,Moderate,Multiple,"['Tired', 'Shortness of Breath', 'Tired']",165,80,175,Yes,Moderate,High
+60,Female,No,Yes,Never,<5,Average,71,Moderate,None,"['Tired', 'Blurred Vision', 'Tired']",90,161,266,No,Low,High
+79,Male,Yes,No,Regular,>7,Healthy,70,Moderate,None,"['Blurred Vision', 'Shortness of Breath', 'Blurred Vision']",115,140,185,Yes,Moderate,High
+42,Male,Yes,Yes,Regular,>7,Average,65,Moderate,None,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",100,78,113,No,High,Moderate
+39,Female,No,Yes,Sometimes,>7,Healthy,110,Moderate,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",119,155,240,No,High,Low
+41,Female,Yes,Yes,Never,>7,Poor,50,Low,None,"['Frequent Urination', 'Shortness of Breath', 'Blurred Vision']",164,152,126,Yes,Low,High
+33,Male,No,Yes,Regular,>7,Poor,67,Moderate,Multiple,"['Chest Pain', 'Blurred Vision', 'Blurred Vision']",175,129,224,No,High,High
+38,Male,Yes,No,Regular,<5,Average,46,Moderate,Heart,"['Frequent Urination', 'Chest Pain', 'Chest Pain']",158,97,142,No,Low,High
+55,Male,No,No,Never,>7,Poor,94,High,Diabetes,"['Blurred Vision', 'Tired', 'Shortness of Breath']",133,171,157,No,High,Moderate
+79,Male,No,No,Sometimes,5-7,Average,51,Low,Heart,"['Tired', 'Shortness of Breath', 'Frequent Urination']",101,133,258,Yes,High,High
+58,Female,Yes,Yes,Sometimes,5-7,Average,71,Low,Multiple,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",134,128,247,Yes,High,High
+76,Female,No,No,Sometimes,<5,Poor,71,Low,Multiple,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",151,103,269,Yes,High,High
+54,Female,No,No,Never,>7,Healthy,94,Moderate,None,"['Chest Pain', 'Blurred Vision', 'Shortness of Breath']",163,159,292,No,Moderate,High
+35,Male,Yes,Yes,Never,>7,Average,81,Low,Multiple,"['Chest Pain', 'Chest Pain', 'Blurred Vision']",117,166,108,No,Low,Low
+68,Male,Yes,Yes,Never,5-7,Poor,96,Low,Multiple,"['Chest Pain', 'Shortness of Breath', 'Tired']",161,124,194,No,Moderate,High
+47,Male,Yes,No,Sometimes,5-7,Average,64,Low,Heart,"['Frequent Urination', 'Blurred Vision', 'Frequent Urination']",124,77,119,No,Low,Moderate
+43,Male,No,No,Never,5-7,Poor,107,Low,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Frequent Urination']",135,89,174,No,High,Moderate
+72,Male,Yes,No,Regular,5-7,Healthy,59,Low,None,"['Chest Pain', 'Tired', 'Frequent Urination']",94,180,118,Yes,Low,High
+41,Male,No,Yes,Regular,<5,Average,114,Moderate,None,"['Frequent Urination', 'Blurred Vision', 'Frequent Urination']",93,86,125,No,Moderate,Moderate
+38,Male,Yes,Yes,Never,<5,Poor,113,High,Heart,"['Shortness of Breath', 'Shortness of Breath', 'Chest Pain']",156,74,208,No,Low,High
+68,Male,No,Yes,Regular,5-7,Poor,120,Moderate,None,"['Frequent Urination', 'Chest Pain', 'Tired']",129,153,279,No,High,High
+49,Female,No,Yes,Regular,>7,Healthy,101,High,None,"['Chest Pain', 'Tired', 'Blurred Vision']",147,163,136,No,High,High
+35,Male,Yes,No,Sometimes,>7,Poor,118,Moderate,None,"['Frequent Urination', 'Blurred Vision', 'Shortness of Breath']",94,162,262,No,High,High
+48,Male,No,No,Sometimes,>7,Poor,75,Moderate,None,"['Tired', 'Blurred Vision', 'Chest Pain']",162,129,288,No,Low,High
+30,Male,Yes,No,Regular,<5,Healthy,80,Low,Diabetes,"['Blurred Vision', 'Chest Pain', 'Blurred Vision']",139,157,184,Yes,Low,Low
+50,Male,No,No,Never,<5,Healthy,109,High,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Shortness of Breath']",103,89,136,No,High,Moderate
+28,Male,Yes,No,Never,5-7,Healthy,120,Moderate,Multiple,"['Tired', 'Frequent Urination', 'Chest Pain']",151,149,111,No,Low,High
+33,Male,Yes,No,Never,5-7,Average,56,High,Multiple,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",140,142,172,No,Low,Moderate
+73,Male,No,No,Regular,>7,Poor,82,Moderate,Heart,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",95,94,216,Yes,Low,High
+48,Male,No,Yes,Never,<5,Poor,119,Low,Diabetes,"['Shortness of Breath', 'Chest Pain', 'Chest Pain']",105,132,133,No,Moderate,Moderate
+32,Male,Yes,Yes,Never,5-7,Healthy,92,Low,None,"['Blurred Vision', 'Blurred Vision', 'Tired']",139,165,280,No,Low,High
+69,Male,No,No,Never,<5,Healthy,82,Low,Diabetes,"['Frequent Urination', 'Tired', 'Frequent Urination']",175,125,140,Yes,High,High
+63,Male,Yes,No,Regular,<5,Average,111,Low,Heart,"['Tired', 'Chest Pain', 'Blurred Vision']",95,117,272,No,Moderate,High
+55,Female,No,Yes,Regular,>7,Average,95,Moderate,None,"['Chest Pain', 'Frequent Urination', 'Blurred Vision']",142,138,162,Yes,Moderate,High
+66,Male,Yes,No,Sometimes,<5,Average,113,Low,None,"['Shortness of Breath', 'Frequent Urination', 'Blurred Vision']",93,76,185,Yes,Low,High
+61,Female,Yes,Yes,Regular,>7,Healthy,80,High,None,"['Blurred Vision', 'Shortness of Breath', 'Tired']",177,174,291,No,Moderate,High
+33,Male,No,No,Never,<5,Average,59,Low,Heart,"['Chest Pain', 'Blurred Vision', 'Blurred Vision']",151,149,174,Yes,Moderate,High
+56,Male,No,No,Never,>7,Healthy,67,High,Multiple,"['Blurred Vision', 'Tired', 'Blurred Vision']",95,100,152,No,Low,Moderate
+80,Male,No,No,Sometimes,>7,Average,98,Moderate,Diabetes,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",142,104,119,Yes,High,High
+68,Male,No,No,Regular,<5,Healthy,98,High,Diabetes,"['Blurred Vision', 'Chest Pain', 'Chest Pain']",148,174,138,No,Low,High
+75,Female,Yes,No,Regular,>7,Healthy,104,Low,Diabetes,"['Chest Pain', 'Tired', 'Shortness of Breath']",155,120,224,No,Low,High
+29,Male,Yes,No,Sometimes,>7,Poor,50,Moderate,Multiple,"['Shortness of Breath', 'Chest Pain', 'Chest Pain']",168,149,139,Yes,Low,High
+20,Male,No,Yes,Sometimes,5-7,Healthy,54,Moderate,Heart,"['Tired', 'Tired', 'Chest Pain']",118,130,108,No,Low,Low
+78,Male,No,No,Never,<5,Healthy,48,Low,Multiple,"['Blurred Vision', 'Chest Pain', 'Chest Pain']",107,88,167,Yes,High,High
+31,Female,Yes,Yes,Regular,>7,Poor,95,Moderate,None,"['Shortness of Breath', 'Tired', 'Frequent Urination']",165,124,295,Yes,High,High
+55,Female,No,No,Never,5-7,Poor,67,Moderate,Multiple,"['Blurred Vision', 'Chest Pain', 'Frequent Urination']",137,134,226,Yes,High,Moderate
+24,Female,No,No,Never,>7,Average,108,Moderate,None,"['Blurred Vision', 'Tired', 'Chest Pain']",144,172,220,Yes,High,High
+66,Female,No,Yes,Regular,5-7,Poor,48,Moderate,Multiple,"['Chest Pain', 'Shortness of Breath', 'Chest Pain']",176,81,277,Yes,Low,High
+57,Male,Yes,Yes,Never,5-7,Healthy,116,High,None,"['Blurred Vision', 'Blurred Vision', 'Blurred Vision']",168,116,200,Yes,Moderate,High
+63,Female,Yes,Yes,Sometimes,<5,Poor,66,Moderate,Diabetes,"['Frequent Urination', 'Chest Pain', 'Chest Pain']",149,87,162,No,High,High
+32,Male,Yes,No,Sometimes,<5,Average,108,Low,Diabetes,"['Tired', 'Shortness of Breath', 'Blurred Vision']",143,169,266,No,Low,High
+62,Male,Yes,Yes,Never,5-7,Healthy,113,Moderate,Heart,"['Frequent Urination', 'Chest Pain', 'Tired']",126,116,255,Yes,Moderate,High
+57,Male,No,No,Sometimes,>7,Poor,67,High,None,"['Shortness of Breath', 'Shortness of Breath', 'Shortness of Breath']",173,179,176,No,High,High
+50,Male,Yes,Yes,Never,>7,Average,91,Low,Heart,"['Frequent Urination', 'Frequent Urination', 'Shortness of Breath']",156,139,268,Yes,Low,High
+52,Male,No,Yes,Regular,>7,Healthy,116,Low,Heart,"['Chest Pain', 'Tired', 'Tired']",96,98,133,Yes,Low,Moderate
+74,Female,Yes,No,Never,5-7,Healthy,108,Low,None,"['Tired', 'Tired', 'Tired']",145,178,128,No,Moderate,High
+18,Female,Yes,Yes,Regular,5-7,Poor,49,Low,None,"['Chest Pain', 'Frequent Urination', 'Frequent Urination']",163,72,225,No,High,High
+18,Male,Yes,No,Sometimes,>7,Healthy,50,Low,None,"['Blurred Vision', 'Tired', 'Frequent Urination']",90,180,282,No,High,High
+37,Female,No,Yes,Sometimes,5-7,Average,108,Low,Multiple,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",109,142,254,No,Low,High
+60,Female,Yes,Yes,Regular,>7,Healthy,114,Moderate,Multiple,"['Chest Pain', 'Shortness of Breath', 'Shortness of Breath']",144,144,162,No,Low,High
+21,Male,No,No,Regular,<5,Average,102,Moderate,Diabetes,"['Frequent Urination', 'Blurred Vision', 'Shortness of Breath']",161,136,274,Yes,Low,High
+26,Female,No,Yes,Sometimes,>7,Poor,110,Moderate,None,"['Tired', 'Shortness of Breath', 'Frequent Urination']",127,123,290,Yes,Low,High
+36,Female,Yes,Yes,Sometimes,5-7,Poor,108,Moderate,Multiple,"['Blurred Vision', 'Frequent Urination', 'Shortness of Breath']",153,178,237,Yes,Moderate,High
+75,Male,No,No,Never,>7,Healthy,96,High,None,"['Frequent Urination', 'Tired', 'Shortness of Breath']",99,150,247,Yes,Low,High
+31,Male,Yes,No,Sometimes,<5,Average,52,High,Heart,"['Shortness of Breath', 'Tired', 'Tired']",91,104,226,No,High,Moderate
+27,Male,Yes,Yes,Never,5-7,Healthy,61,High,Multiple,"['Shortness of Breath', 'Shortness of Breath', 'Shortness of Breath']",173,94,262,No,High,High
+19,Male,Yes,Yes,Regular,<5,Average,85,Moderate,Heart,"['Shortness of Breath', 'Chest Pain', 'Shortness of Breath']",129,109,283,No,High,High
+20,Male,No,No,Regular,5-7,Average,96,High,Multiple,"['Chest Pain', 'Chest Pain', 'Chest Pain']",116,128,184,No,Low,Moderate
+39,Male,No,Yes,Never,<5,Average,101,Moderate,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",144,125,133,No,High,High
+61,Male,Yes,Yes,Sometimes,>7,Average,80,High,None,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",179,150,210,No,High,High
+20,Male,Yes,No,Never,5-7,Average,63,Low,Multiple,"['Frequent Urination', 'Tired', 'Frequent Urination']",146,96,175,No,Moderate,High
+74,Male,Yes,Yes,Regular,>7,Average,108,High,None,"['Blurred Vision', 'Tired', 'Blurred Vision']",135,106,263,Yes,Moderate,High
+53,Male,Yes,No,Never,5-7,Average,84,Low,None,"['Chest Pain', 'Tired', 'Chest Pain']",163,167,190,Yes,High,High
+27,Male,Yes,Yes,Sometimes,<5,Average,54,High,None,"['Blurred Vision', 'Tired', 'Frequent Urination']",135,76,195,No,High,Moderate
+53,Female,No,Yes,Never,>7,Average,120,Moderate,None,"['Frequent Urination', 'Shortness of Breath', 'Tired']",139,94,268,No,Moderate,High
+64,Male,No,Yes,Sometimes,>7,Poor,57,Moderate,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Tired']",154,150,299,Yes,Low,High
+18,Female,Yes,Yes,Never,>7,Average,73,Moderate,Diabetes,"['Chest Pain', 'Frequent Urination', 'Tired']",142,73,270,Yes,Low,High
+34,Female,Yes,No,Regular,5-7,Healthy,60,Moderate,Heart,"['Blurred Vision', 'Frequent Urination', 'Chest Pain']",102,83,238,No,Low,Low
+25,Female,No,Yes,Never,>7,Healthy,100,Low,Heart,"['Tired', 'Blurred Vision', 'Frequent Urination']",113,152,215,Yes,High,Low
+80,Male,Yes,No,Never,<5,Poor,112,Low,Heart,"['Chest Pain', 'Blurred Vision', 'Frequent Urination']",152,140,207,Yes,Moderate,High
+49,Female,Yes,No,Sometimes,>7,Healthy,119,High,Multiple,"['Blurred Vision', 'Chest Pain', 'Tired']",123,93,161,Yes,Moderate,Moderate
+25,Female,No,Yes,Never,>7,Average,113,Moderate,Heart,"['Shortness of Breath', 'Chest Pain', 'Shortness of Breath']",139,133,242,Yes,Low,High
+71,Male,No,Yes,Never,5-7,Poor,51,Low,Multiple,"['Frequent Urination', 'Shortness of Breath', 'Tired']",111,110,197,No,Moderate,High
+43,Male,No,No,Never,5-7,Poor,85,Moderate,Heart,"['Tired', 'Frequent Urination', 'Chest Pain']",131,159,166,Yes,High,Moderate
+32,Female,Yes,No,Regular,<5,Poor,46,High,Multiple,"['Tired', 'Shortness of Breath', 'Tired']",109,107,220,No,High,Moderate
+61,Male,Yes,No,Sometimes,>7,Average,108,Moderate,None,"['Shortness of Breath', 'Frequent Urination', 'Blurred Vision']",169,124,287,Yes,High,High
+47,Male,No,Yes,Sometimes,5-7,Poor,85,Low,Multiple,"['Frequent Urination', 'Chest Pain', 'Shortness of Breath']",180,128,277,No,High,High
+59,Male,No,Yes,Regular,5-7,Poor,89,Low,None,"['Frequent Urination', 'Frequent Urination', 'Tired']",168,91,122,Yes,Low,High
+37,Female,Yes,Yes,Sometimes,>7,Average,60,Moderate,None,"['Shortness of Breath', 'Shortness of Breath', 'Tired']",108,152,138,Yes,Moderate,Low
+38,Female,No,No,Regular,>7,Average,92,High,None,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",129,119,224,No,Low,Moderate
+37,Female,Yes,No,Never,<5,Poor,75,High,Multiple,"['Chest Pain', 'Blurred Vision', 'Tired']",170,113,271,No,Low,High
+73,Male,No,No,Never,<5,Poor,45,Moderate,Multiple,"['Blurred Vision', 'Shortness of Breath', 'Blurred Vision']",102,92,186,Yes,High,High
+61,Female,Yes,No,Regular,>7,Healthy,92,Moderate,None,"['Blurred Vision', 'Chest Pain', 'Frequent Urination']",95,153,209,No,Moderate,High
+78,Male,No,Yes,Regular,5-7,Average,111,Low,Heart,"['Shortness of Breath', 'Blurred Vision', 'Shortness of Breath']",90,180,293,No,Moderate,High
+64,Female,Yes,Yes,Sometimes,<5,Average,100,High,Multiple,"['Shortness of Breath', 'Tired', 'Shortness of Breath']",115,79,164,No,Moderate,High
+58,Female,No,No,Regular,5-7,Healthy,55,Low,Heart,"['Shortness of Breath', 'Blurred Vision', 'Chest Pain']",98,169,210,Yes,Moderate,Moderate
+49,Female,No,No,Never,<5,Average,104,Moderate,Multiple,"['Chest Pain', 'Shortness of Breath', 'Blurred Vision']",139,72,239,Yes,Moderate,Moderate
+68,Female,No,No,Sometimes,5-7,Poor,90,High,None,"['Frequent Urination', 'Blurred Vision', 'Shortness of Breath']",92,138,102,No,Low,High
+80,Male,No,No,Sometimes,<5,Healthy,58,Low,None,"['Blurred Vision', 'Shortness of Breath', 'Chest Pain']",117,101,151,No,Moderate,High
+79,Female,Yes,No,Sometimes,>7,Poor,107,High,Heart,"['Tired', 'Tired', 'Shortness of Breath']",175,133,128,No,Low,High
+71,Male,No,Yes,Never,<5,Average,50,Moderate,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Frequent Urination']",106,133,124,No,Moderate,High
+79,Male,Yes,No,Never,5-7,Average,87,Moderate,Multiple,"['Blurred Vision', 'Shortness of Breath', 'Chest Pain']",149,135,295,Yes,High,High
+50,Female,Yes,Yes,Sometimes,<5,Healthy,113,High,Diabetes,"['Frequent Urination', 'Frequent Urination', 'Shortness of Breath']",123,146,175,Yes,High,Moderate
+30,Female,Yes,Yes,Regular,5-7,Healthy,120,High,Diabetes,"['Chest Pain', 'Blurred Vision', 'Tired']",170,115,171,Yes,Low,High
+77,Male,Yes,Yes,Never,<5,Healthy,114,High,None,"['Shortness of Breath', 'Tired', 'Chest Pain']",174,73,135,Yes,High,High
+80,Female,No,No,Never,>7,Healthy,60,Moderate,Multiple,"['Frequent Urination', 'Frequent Urination', 'Tired']",129,80,231,No,Moderate,High
+55,Female,No,Yes,Sometimes,5-7,Average,90,Moderate,Heart,"['Tired', 'Shortness of Breath', 'Blurred Vision']",170,151,198,Yes,Moderate,High
+27,Male,Yes,No,Sometimes,5-7,Poor,54,Moderate,Multiple,"['Tired', 'Shortness of Breath', 'Tired']",145,81,245,No,Moderate,High
+18,Male,No,Yes,Regular,5-7,Poor,107,Low,Multiple,"['Frequent Urination', 'Tired', 'Chest Pain']",114,111,233,Yes,High,Moderate
+48,Male,Yes,No,Sometimes,<5,Poor,63,Low,Heart,"['Blurred Vision', 'Shortness of Breath', 'Frequent Urination']",141,135,274,Yes,Low,High
+60,Female,Yes,Yes,Regular,5-7,Healthy,82,Moderate,None,"['Tired', 'Tired', 'Shortness of Breath']",114,93,285,Yes,Moderate,High
+37,Female,Yes,No,Sometimes,5-7,Healthy,50,High,None,"['Blurred Vision', 'Tired', 'Frequent Urination']",162,140,122,Yes,High,High
+47,Female,Yes,Yes,Never,>7,Average,113,Low,Diabetes,"['Frequent Urination', 'Blurred Vision', 'Shortness of Breath']",99,108,199,No,Moderate,Moderate
+52,Female,Yes,No,Never,<5,Poor,64,Low,Multiple,"['Chest Pain', 'Frequent Urination', 'Blurred Vision']",179,87,167,Yes,Low,High
+20,Female,No,Yes,Regular,5-7,Average,45,Moderate,Multiple,"['Shortness of Breath', 'Blurred Vision', 'Tired']",107,72,214,Yes,High,Low
+42,Female,Yes,No,Sometimes,>7,Average,103,High,Multiple,"['Shortness of Breath', 'Shortness of Breath', 'Frequent Urination']",123,129,294,No,Low,High
+70,Female,No,Yes,Sometimes,<5,Average,60,Moderate,Multiple,"['Blurred Vision', 'Chest Pain', 'Shortness of Breath']",171,179,236,No,Moderate,High
+20,Female,Yes,No,Regular,<5,Average,117,Moderate,Diabetes,"['Chest Pain', 'Shortness of Breath', 'Blurred Vision']",164,125,186,No,Moderate,High
+43,Female,Yes,Yes,Regular,>7,Poor,109,Moderate,None,"['Tired', 'Shortness of Breath', 'Tired']",151,120,288,Yes,Low,High
+39,Female,No,Yes,Never,<5,Poor,99,Low,Diabetes,"['Chest Pain', 'Shortness of Breath', 'Frequent Urination']",147,132,253,No,High,High
+74,Female,Yes,No,Sometimes,<5,Average,98,High,None,"['Tired', 'Frequent Urination', 'Shortness of Breath']",96,101,209,No,Low,High
+76,Male,No,No,Sometimes,<5,Poor,97,Low,None,"['Shortness of Breath', 'Blurred Vision', 'Tired']",122,141,275,No,Low,High
+50,Male,Yes,Yes,Regular,5-7,Average,88,Low,Heart,"['Tired', 'Frequent Urination', 'Frequent Urination']",145,104,150,Yes,Moderate,High
+36,Female,Yes,Yes,Sometimes,>7,Healthy,85,Low,Diabetes,"['Tired', 'Tired', 'Shortness of Breath']",127,136,267,No,Moderate,High
+75,Male,Yes,No,Sometimes,<5,Average,90,Low,Heart,"['Tired', 'Chest Pain', 'Tired']",130,166,113,Yes,Moderate,High
+61,Male,Yes,No,Regular,>7,Average,108,High,Diabetes,"['Frequent Urination', 'Shortness of Breath', 'Tired']",171,102,172,No,Low,High
+49,Female,Yes,No,Never,<5,Poor,87,High,Multiple,"['Chest Pain', 'Tired', 'Blurred Vision']",153,145,257,No,Moderate,High
+63,Female,Yes,No,Never,>7,Average,65,Low,None,"['Tired', 'Tired', 'Shortness of Breath']",136,128,246,Yes,Low,High
+69,Female,Yes,Yes,Never,5-7,Healthy,51,Low,None,"['Blurred Vision', 'Blurred Vision', 'Tired']",141,169,131,Yes,High,High
+34,Female,No,No,Sometimes,5-7,Average,102,High,Diabetes,"['Frequent Urination', 'Tired', 'Chest Pain']",172,122,272,No,Moderate,High
+57,Female,No,Yes,Never,5-7,Healthy,74,High,None,"['Blurred Vision', 'Frequent Urination', 'Frequent Urination']",151,87,118,No,High,High
+51,Female,No,Yes,Never,<5,Average,67,Moderate,Multiple,"['Shortness of Breath', 'Shortness of Breath', 'Blurred Vision']",101,152,195,Yes,Low,Moderate
+65,Male,No,No,Regular,>7,Poor,62,High,Heart,"['Tired', 'Chest Pain', 'Shortness of Breath']",106,180,200,No,Low,High
+52,Male,No,Yes,Regular,5-7,Average,106,Low,Diabetes,"['Blurred Vision', 'Chest Pain', 'Shortness of Breath']",167,149,240,No,Low,High
+36,Male,No,Yes,Regular,5-7,Healthy,77,Moderate,Multiple,"['Tired', 'Chest Pain', 'Chest Pain']",131,122,283,Yes,Low,High
+28,Male,Yes,No,Sometimes,>7,Poor,90,Moderate,None,"['Frequent Urination', 'Tired', 'Blurred Vision']",137,149,108,No,Low,Moderate
+63,Male,Yes,No,Never,>7,Average,91,Low,Multiple,"['Blurred Vision', 'Tired', 'Chest Pain']",125,120,233,Yes,Low,High
+56,Female,Yes,No,Never,>7,Healthy,96,Moderate,Multiple,"['Chest Pain', 'Shortness of Breath', 'Frequent Urination']",137,123,192,Yes,Low,Moderate
+66,Female,No,Yes,Never,<5,Poor,46,Low,Heart,"['Shortness of Breath', 'Blurred Vision', 'Blurred Vision']",110,134,187,No,High,High
+73,Male,No,No,Never,>7,Average,57,Moderate,Heart,"['Blurred Vision', 'Chest Pain', 'Shortness of Breath']",136,157,154,No,Moderate,High
+75,Female,Yes,Yes,Never,<5,Average,72,Low,Diabetes,"['Tired', 'Blurred Vision', 'Shortness of Breath']",130,89,109,Yes,High,High
+39,Female,Yes,No,Never,5-7,Average,117,Moderate,None,"['Blurred Vision', 'Shortness of Breath', 'Shortness of Breath']",149,152,198,Yes,Moderate,High
+63,Female,No,Yes,Regular,<5,Average,100,Low,Diabetes,"['Frequent Urination', 'Chest Pain', 'Tired']",169,106,130,Yes,High,High
+77,Female,Yes,Yes,Sometimes,>7,Healthy,49,Moderate,Heart,"['Blurred Vision', 'Chest Pain', 'Frequent Urination']",91,147,100,No,Low,High
+19,Female,No,Yes,Regular,5-7,Poor,92,Moderate,Multiple,"['Shortness of Breath', 'Tired', 'Tired']",179,88,224,No,High,High
+34,Female,No,Yes,Never,5-7,Poor,47,Low,Heart,"['Shortness of Breath', 'Blurred Vision', 'Frequent Urination']",140,123,234,No,Moderate,Moderate
+56,Female,No,Yes,Never,<5,Average,113,High,None,"['Chest Pain', 'Shortness of Breath', 'Chest Pain']",168,142,253,Yes,Moderate,High
+54,Male,Yes,No,Sometimes,>7,Average,119,High,Multiple,"['Chest Pain', 'Shortness of Breath', 'Tired']",145,70,177,No,Moderate,High
+75,Female,No,No,Never,5-7,Average,69,Low,Heart,"['Blurred Vision', 'Blurred Vision', 'Blurred Vision']",143,133,258,No,Moderate,High
+33,Male,Yes,Yes,Regular,<5,Poor,105,High,None,"['Chest Pain', 'Blurred Vision', 'Tired']",102,97,211,No,High,Moderate
+23,Male,No,No,Sometimes,>7,Poor,70,Low,Multiple,"['Tired', 'Blurred Vision', 'Tired']",119,88,124,Yes,Low,Moderate
+54,Male,Yes,Yes,Sometimes,5-7,Poor,63,Moderate,None,"['Tired', 'Blurred Vision', 'Shortness of Breath']",140,115,150,No,Low,Moderate
+76,Female,No,Yes,Regular,>7,Poor,77,Low,Heart,"['Tired', 'Chest Pain', 'Tired']",148,109,217,No,Moderate,High
+31,Male,No,Yes,Regular,<5,Healthy,75,Low,None,"['Chest Pain', 'Chest Pain', 'Frequent Urination']",145,118,142,Yes,Moderate,High
+48,Male,No,Yes,Sometimes,<5,Average,102,High,Diabetes,"['Frequent Urination', 'Chest Pain', 'Blurred Vision']",135,163,229,No,Low,Moderate
+36,Female,No,No,Never,>7,Average,60,Moderate,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Shortness of Breath']",99,151,297,Yes,Moderate,High
+40,Female,No,No,Sometimes,>7,Poor,90,Low,Heart,"['Tired', 'Blurred Vision', 'Blurred Vision']",129,175,194,No,High,Moderate
+31,Male,No,Yes,Regular,<5,Healthy,76,Moderate,None,"['Tired', 'Chest Pain', 'Shortness of Breath']",144,177,181,Yes,Low,High
+58,Male,Yes,Yes,Regular,<5,Average,99,Moderate,Heart,"['Chest Pain', 'Frequent Urination', 'Blurred Vision']",107,87,105,Yes,High,Moderate
+46,Female,Yes,Yes,Sometimes,<5,Poor,98,Low,None,"['Tired', 'Shortness of Breath', 'Blurred Vision']",178,121,134,No,High,High
+72,Male,No,Yes,Never,<5,Healthy,107,High,Diabetes,"['Tired', 'Shortness of Breath', 'Blurred Vision']",166,79,120,Yes,Moderate,High
+36,Female,No,Yes,Sometimes,>7,Poor,60,Low,None,"['Frequent Urination', 'Shortness of Breath', 'Frequent Urination']",106,91,182,No,Low,Moderate
+78,Male,Yes,Yes,Regular,5-7,Poor,46,Low,Multiple,"['Tired', 'Frequent Urination', 'Frequent Urination']",179,163,225,No,High,High
+49,Male,No,Yes,Regular,5-7,Average,120,High,Multiple,"['Chest Pain', 'Shortness of Breath', 'Tired']",160,89,296,No,High,High
+70,Male,No,No,Sometimes,5-7,Poor,103,Low,Heart,"['Chest Pain', 'Shortness of Breath', 'Tired']",156,161,103,Yes,Low,High
+53,Male,Yes,Yes,Sometimes,5-7,Average,96,Low,Diabetes,"['Blurred Vision', 'Tired', 'Shortness of Breath']",116,89,198,No,Low,Moderate
+19,Female,No,No,Regular,<5,Healthy,49,Low,Diabetes,"['Chest Pain', 'Frequent Urination', 'Frequent Urination']",117,161,160,No,Moderate,Low
+26,Female,No,No,Sometimes,>7,Poor,45,Low,Diabetes,"['Blurred Vision', 'Frequent Urination', 'Tired']",153,124,152,Yes,Moderate,High
+23,Male,No,No,Regular,5-7,Healthy,82,Moderate,Heart,"['Chest Pain', 'Frequent Urination', 'Frequent Urination']",114,109,142,Yes,Moderate,Low
+27,Male,No,No,Never,>7,Average,71,High,Multiple,"['Shortness of Breath', 'Shortness of Breath', 'Tired']",135,169,231,No,Moderate,Moderate
+62,Female,Yes,Yes,Sometimes,<5,Healthy,70,High,Heart,"['Tired', 'Chest Pain', 'Blurred Vision']",168,177,257,Yes,High,High
+36,Male,Yes,No,Never,>7,Average,60,Low,Heart,"['Tired', 'Blurred Vision', 'Chest Pain']",106,105,209,Yes,High,Low
+76,Male,Yes,Yes,Sometimes,>7,Poor,98,Moderate,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Frequent Urination']",171,90,116,No,Low,High
+70,Male,Yes,No,Sometimes,>7,Poor,97,Moderate,None,"['Frequent Urination', 'Frequent Urination', 'Chest Pain']",122,117,184,Yes,Moderate,High
+63,Male,Yes,Yes,Regular,>7,Average,64,Low,Heart,"['Chest Pain', 'Tired', 'Frequent Urination']",168,171,187,No,Moderate,High
+57,Female,Yes,Yes,Never,5-7,Average,74,Moderate,Diabetes,"['Tired', 'Tired', 'Blurred Vision']",161,119,123,No,Moderate,High
+58,Male,Yes,No,Never,>7,Average,114,Moderate,Diabetes,"['Shortness of Breath', 'Frequent Urination', 'Chest Pain']",101,122,121,Yes,Moderate,Moderate
+64,Male,No,Yes,Regular,>7,Poor,109,Low,Heart,"['Blurred Vision', 'Tired', 'Blurred Vision']",104,114,150,No,High,High
+73,Male,No,Yes,Sometimes,>7,Healthy,113,High,None,"['Shortness of Breath', 'Frequent Urination', 'Blurred Vision']",142,177,239,Yes,Low,High
+18,Male,No,No,Sometimes,<5,Healthy,59,High,Heart,"['Tired', 'Blurred Vision', 'Frequent Urination']",123,123,208,No,High,Moderate
+79,Male,Yes,No,Regular,5-7,Poor,61,Moderate,Multiple,"['Chest Pain', 'Frequent Urination', 'Shortness of Breath']",102,175,194,Yes,Moderate,High
+47,Female,Yes,Yes,Never,<5,Poor,107,Low,None,"['Shortness of Breath', 'Blurred Vision', 'Blurred Vision']",97,155,174,No,Low,Moderate
+60,Male,Yes,No,Never,>7,Average,68,High,Diabetes,"['Blurred Vision', 'Shortness of Breath', 'Blurred Vision']",163,81,240,Yes,Moderate,High
+33,Female,Yes,No,Regular,<5,Average,85,Moderate,None,"['Chest Pain', 'Shortness of Breath', 'Chest Pain']",124,158,285,No,Low,High
+59,Male,Yes,No,Sometimes,<5,Healthy,80,Moderate,Diabetes,"['Shortness of Breath', 'Tired', 'Frequent Urination']",143,90,259,No,Low,High
+71,Male,Yes,Yes,Never,<5,Healthy,59,High,Multiple,"['Frequent Urination', 'Chest Pain', 'Tired']",172,92,165,No,High,High
+29,Female,Yes,Yes,Regular,<5,Poor,52,Low,None,"['Frequent Urination', 'Blurred Vision', 'Shortness of Breath']",130,93,242,Yes,Moderate,High
+47,Male,Yes,Yes,Sometimes,5-7,Average,61,High,Diabetes,"['Chest Pain', 'Blurred Vision', 'Chest Pain']",128,93,226,No,Low,Moderate
+71,Female,Yes,No,Never,5-7,Poor,117,Moderate,Diabetes,"['Frequent Urination', 'Chest Pain', 'Chest Pain']",145,80,140,No,High,High
+19,Female,No,No,Sometimes,5-7,Poor,107,High,None,"['Chest Pain', 'Shortness of Breath', 'Tired']",134,166,222,No,High,Moderate
+54,Male,Yes,Yes,Never,>7,Healthy,64,High,Diabetes,"['Tired', 'Shortness of Breath', 'Chest Pain']",172,179,244,No,Moderate,High
+19,Female,Yes,Yes,Never,<5,Poor,66,High,Multiple,"['Tired', 'Shortness of Breath', 'Shortness of Breath']",117,78,232,Yes,Low,Moderate
