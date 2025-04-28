@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Confetti from "react-confetti";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
-import UserHistory from "./UserHistory";
+import Login from "./components/login";
+import Register from "./components/register";
+
+
+
 
 
 
@@ -12,6 +16,12 @@ function App() {
   const [riskResult, setRiskResult] = useState(null);
   const [isFromReport, setIsFromReport] = useState(false); // ✅ This is the missing line
   const [showInfo, setShowInfo] = useState(false);
+  const [historyData, setHistoryData] = useState([]);
+  const [loadingHistory, setLoadingHistory] = useState(false);
+  const [searchUsername, setSearchUsername] = useState(""); // ✅ Search username state
+  const [historyResults, setHistoryResults] = useState([]);
+  const [historyError, setHistoryError] = useState("");
+
 
   const goToMain = () => setPage("main");
 
@@ -243,6 +253,54 @@ function App() {
       alert("❌ Failed to process the health report.");
     }
   };
+
+  const handleHistorySearch = async () => {
+    if (!searchUsername.trim()) {
+      setHistoryResults([]);
+      setHistoryError("Please enter a username.");
+      return;
+    }
+  
+    try {
+      const res = await axios.get(`http://localhost:5000/api/history?username=${searchUsername}`);
+      if (res.data.length === 0) {
+        setHistoryError("No records found.");
+        setHistoryResults([]);
+      } else {
+        setHistoryResults(res.data);
+        setHistoryError("");
+      }
+    } catch (err) {
+      console.error("❌ Error fetching history:", err);
+      setHistoryError("Failed to fetch history.");
+    }
+  };
+  const fetchUserHistory = async () => {
+    if (!searchUsername.trim()) {
+      alert("Enter a username to search.");
+      return;
+    }
+  
+    setLoadingHistory(true);
+    try {
+      const response = await axios.get("http://localhost:5000/api/history");
+      const allRecords = response.data;
+  
+      const filtered = allRecords.filter(
+        (record) =>
+          record.username &&
+          record.username.toLowerCase().trim() === searchUsername.toLowerCase().trim()
+      );
+  
+      setHistoryData(filtered);
+    } catch (err) {
+      console.error("❌ History fetch error:", err);
+      alert("Failed to fetch user history.");
+    } finally {
+      setLoadingHistory(false);
+    }
+  };
+  
   
   
 
@@ -296,26 +354,9 @@ function App() {
 )}
 
 
-      {page === "login" && (
-        <div className="bg-lightBg p-8 rounded-xl shadow-lg w-full max-w-sm space-y-4">
-          <h2 className="text-2xl font-bold text-hospitalBlue text-center">Login</h2>
-          <input type="text" placeholder="Username" className="w-full border px-4 py-2 rounded-md" />
-          <input type="password" placeholder="Password" className="w-full border px-4 py-2 rounded-md" />
-          <button onClick={goToMain} className="w-full bg-gradient-to-r from-primary to-secondary text-white font-semibold px-6 py-3 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">Continue</button>
-          <p className="text-sm text-center text-hospitalBlue cursor-pointer" onClick={() => setPage("register")}>Don’t have an account? Register</p>
-        </div>
-      )}
+{page === "login" && <Login setPage={setPage} goToMain={goToMain} />}
+{page === "register" && <Register setPage={setPage} goToMain={goToMain} />}
 
-      {page === "register" && (
-        <div className="bg-lightBg p-8 rounded-xl shadow-lg w-full max-w-sm space-y-4">
-          <h2 className="text-2xl font-bold text-medicalTeal text-center">Register</h2>
-          <input type="text" placeholder="Username" className="w-full border px-4 py-2 rounded-md" />
-          <input type="password" placeholder="Password" className="w-full border px-4 py-2 rounded-md" />
-          <input type="password" placeholder="Re-enter Password" className="w-full border px-4 py-2 rounded-md" />
-          <button onClick={goToMain} className="w-full bg-gradient-to-r from-primary to-secondary text-white font-semibold px-6 py-3 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">Register</button>
-          <p className="text-sm text-center text-hospitalBlue cursor-pointer" onClick={() => setPage("login")}>Already have an account? Login</p>
-        </div>
-      )}
 
 {page === "main" && (
   <div className="text-center space-y-6">
@@ -568,21 +609,62 @@ function App() {
   </div>
 )}
 
-{/* History Page */}
 {page === "history" && (
   <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-3xl space-y-6">
-    <h2 className="text-3xl font-bold text-blue-700 text-center">📜 </h2>
-    <UserHistory goBack={() => setPage("main")} />
-    <div className="text-center">
+    <h2 className="text-3xl font-bold text-blue-700 text-center">📜 Search Health History</h2>
+
+    <div className="flex flex-col sm:flex-row items-center gap-4 justify-center">
+      <input
+        type="text"
+        placeholder="Enter username"
+        value={searchUsername}
+        onChange={(e) => setSearchUsername(e.target.value)}
+        className="border px-4 py-2 rounded-md w-full sm:w-2/3"
+      />
       <button
-        onClick={() => setPage("main")}
-        className="mt-6 bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-600"
+        onClick={fetchUserHistory}
+        className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold px-6 py-2 rounded-lg shadow hover:scale-105 transition"
       >
-       
+        🔍 Search
+      </button>
+    </div>
+
+    {loadingHistory ? (
+      <p className="text-center text-gray-600 mt-4">Loading...</p>
+    ) : historyData.length === 0 ? (
+      <p className="text-center text-red-500 mt-4">No records found for "{searchUsername}"</p>
+    ) : (
+      <div className="space-y-4 mt-4">
+        {historyData.map((record, idx) => (
+          <div key={idx} className="bg-lightBg border border-gray-300 rounded-lg p-4 shadow">
+            <h3 className="text-lg font-semibold">Username: {record.username}</h3>
+            <p className="text-sm text-gray-600">Source: {record.source}</p>
+            <div className="mt-2">
+              <p><strong>Heart Risk:</strong> {record.result?.heartRisk}</p>
+              <p><strong>Diabetes Risk:</strong> {record.result?.diabetesRisk}</p>
+              <p><strong>Mental Risk:</strong> {record.result?.mentalRisk}</p>
+              <p><strong>Obesity Risk:</strong> {record.result?.obesityRisk}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
+
+    <div className="text-center mt-6">
+      <button
+        onClick={() => {
+          setPage("main");
+          setSearchUsername("");
+          setHistoryData([]);
+        }}
+        className="bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-600"
+      >
+        🔙 Back to Dashboard
       </button>
     </div>
   </div>
 )}
+
 
 </div>
 );
