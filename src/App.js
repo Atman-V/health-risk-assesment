@@ -75,7 +75,7 @@ function App() {
         symptoms: formData.symptoms.join(","),
       };
   
-      const response = await axios.post("http://localhost:5000/api/survey", payload, {
+      const response = await axios.post("https://health-risk-backend.onrender.com/api/survey", payload, {
         headers: { "Content-Type": "application/json" },
       });
   
@@ -233,7 +233,7 @@ function App() {
     formDataData.append("file", file);
   
     try {
-      const response = await axios.post("http://localhost:5000/api/upload", formDataData, {
+      const response = await axios.post("https://health-risk-backend.onrender.com/api/upload", formDataData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
   
@@ -262,7 +262,7 @@ function App() {
     }
   
     try {
-      const res = await axios.get(`http://localhost:5000/api/history?username=${searchUsername}`);
+      const res = await axios.get(`https://health-risk-backend.onrender.com/api/history?username=${searchUsername}`);
       if (res.data.length === 0) {
         setHistoryError("No records found.");
         setHistoryResults([]);
@@ -283,9 +283,9 @@ function App() {
   
     setLoadingHistory(true);
     try {
-      const response = await axios.get("http://localhost:5000/api/history");
+      const response = await axios.get("https://health-risk-backend.onrender.com/api/history");
       const allRecords = response.data;
-  
+
       const filtered = allRecords.filter(
         (record) =>
           record.username &&
