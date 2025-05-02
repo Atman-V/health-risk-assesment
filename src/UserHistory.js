@@ -9,7 +9,7 @@ function UserHistory({ goBack }) {
     async function fetchHistory() {
       try {
         // Fetch all history entries from the backend
-        const response = await axios.get("http://localhost:5000/api/history");
+        const response = await axios.get("https://health-risk-backend.onrender.com/api/history");
         if (response.data.length > 0) {
           setHistoryData(response.data);
         } else {
