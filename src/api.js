@@ -2,7 +2,7 @@
 
 export async function getHealthRisk(data) {
     try {
-      const response = await fetch("http://localhost:8000/api/predict", {
+      const response = await fetch("https://health-risk-backend.onrender.com/api/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
