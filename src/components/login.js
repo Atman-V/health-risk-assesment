@@ -12,7 +12,7 @@ function Login({ setPage, goToMain }) {
     }
 
     try {
-      const response = await axios.post('https://health-risk-backend.onrender.com/auth/login', {
+      const response = await axios.post('http://localhost:9000/auth/login', {
         username,
         password,
       });
