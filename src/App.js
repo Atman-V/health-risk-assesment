@@ -339,7 +339,7 @@ function App() {
           HRA is introduced to help individuals recognize their health status early and take preventive measures. It can reduce healthcare costs, improve well-being, and promote proactive health decisions.
         </p>
         <div className="border-t pt-2 text-sm text-lightText">
-          Created by: <strong>Sabaris J</strong> & <strong>Divyesh R</strong>
+          Created by: <strong>Sabaris J</strong> , <strong>Divyesh R</strong> & <strong>Saanvi Naveen</strong>
         </div>
       </div>
     )}
