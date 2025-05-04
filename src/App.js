@@ -21,7 +21,7 @@ function App() {
   const [searchUsername, setSearchUsername] = useState(""); // ✅ Search username state
   const [historyResults, setHistoryResults] = useState([]);
   const [historyError, setHistoryError] = useState("");
-  const backendUrl = "https://health-risk-backend.onrender.com/docs#/";
+  
 
   const goToMain = () => setPage("main");
 
@@ -68,34 +68,28 @@ function App() {
   const handleSurveySubmit = async (e) => {
     e.preventDefault();
   
-    try {
-      const payload = {
-        ...formData,
-        familyHistory: formData.familyHistory.join(","),
-        symptoms: formData.symptoms.join(","),
-      };
+    // Send the survey data as-is (no need to join arrays)
+    const payload = {
+      ...formData,
+    };
   
-      const response = await axios.post(`${backendUrl}/api/survey`, payload, {
+    console.log("Sending Payload:", payload); // Log the payload for debugging
+  
+    try {
+      const response = await axios.post("https://health-risk-backend.onrender.com/api/survey", payload, {
         headers: { "Content-Type": "application/json" },
       });
-  
       const backendResult = response.data.result || response.data;
-  
       console.log("✅ AI Prediction Response:", backendResult);
-  
-      setRiskResult(backendResult);
-      setPage("result");
+      setRiskResult(backendResult); // Set the result from the backend
+      setPage("result"); // Navigate to the result page
     } catch (err) {
-      console.error("❌ Error submitting survey:", err?.response?.data || err.message);
-      alert("❌ Failed to submit survey.");
+      console.error("❌ Error submitting survey:", err.response?.data || err.message);
+      alert(`❌ Failed to submit survey: ${err.response?.data?.message || err.message}`);
     }
   };
   
   
-  
-  
-  
-
   const calculateRiskWithRecommendations = (override = null) => {
     const data = override || formData;
   
@@ -234,7 +228,7 @@ function App() {
     formDataData.append("file", file);
   
     try {
-      const response = await axios.post(`${backendUrl}/api/upload`, formDataData, {
+      const response = await axios.post(`https://health-risk-backend.onrender.com/api/upload`, formDataData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
   
@@ -264,7 +258,7 @@ function App() {
     }
   
     try {
-      const res = await axios.get(`https://health-risk-backend.onrender.com/api/history?username=${searchUsername}`);
+      const res = await axios.get(`https://health-risk-backend.onrender.com/api/history`);
       if (res.data.length === 0) {
         setHistoryError("No records found.");
         setHistoryResults([]);
@@ -285,7 +279,7 @@ function App() {
   
     setLoadingHistory(true);
     try {
-      const response = await axios.get(`${backendUrl}/api/history`);
+      const response = await axios.get(`https://health-risk-backend.onrender.com/api/history`);
       const allRecords = response.data;
   
       const filtered = allRecords.filter(
