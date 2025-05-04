@@ -13,7 +13,7 @@ function Register({ setPage }) {
     }
 
     try {
-      const response = await axios.post('http://localhost:9000/auth/register', {
+      const response = await axios.post('https://health-risk-backend.onrender.com/api/register', {
         username,
         password,
       });
